@@ -1,0 +1,84 @@
+@font-face {
+	font-family: Quicksand;
+	src: url("fonts/Quicksand-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: FiraSans;
+	src: url("fonts/FiraSans-Book.otf") format("opentype");
+}
+
+body, p, ul, li{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+#main_center_container{
+	width: 700px;
+	height: 400px;
+	margin: 0 auto;
+}
+
+#title_container{
+	width: 100%;
+	height: 40px;
+}
+
+#title_txt{
+	font-family: Quicksand;
+	font-size: 25px;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+	line-height: 50px;
+	vertical-align: middle;
+}
+
+.input_container{
+	width: 100%;
+	height: 110px;
+}
+
+.input_style{
+	width: 600px;
+	height: 100px;
+	margin-top: 10px;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: #D8D8D8;
+	border: none;
+	resize: none;
+	font-family: FiraSans;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+}
+
+#convert_opt_container{
+	width: 50%;
+	height: 70px;
+}
+
+.opt_butns{
+	width: 120px;
+	height: 40px;
+	background-color: black;
+	float: left;
+	cursor: pointer;
+}
+
+.opt_butns_txt{
+	font-family: Quicksand;
+	font-size: 25px;
+	font-weight: bold;
+	color: white;
+	line-height: 40px;
+	vertical-align: middle;
+	text-align: center;
+}
+
+#convert_butn{
+	margin-top: 10px;
+	margin-left: 50px;
+}

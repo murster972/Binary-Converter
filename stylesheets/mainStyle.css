@@ -1,0 +1,9 @@
+@font-face {
+	font-family: Quicksand;
+	src: url("fonts/Quicksand-Regular.otf") format("opentype");
+}
+
+@font-face {
+	font-family: FiraSans;
+	src: url("fonts/FiraSans-Book.otf") format("opentype");
+}
